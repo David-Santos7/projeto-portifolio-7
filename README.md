@@ -1,36 +1,87 @@
-# projeto-portifolio-7
+<p align="center">
+    <img width="300" src="https://micheleambrosio.github.io/semana-frontend-mundo-invertido/assets/images/banner/logo.svg">
+</p>
 
-Projeto Mundo Invertido (Stranger Things)
-📖 Sobre o Projeto
-Este é o repositório do projeto "Mundo Invertido", uma landing page temática da série Stranger Things, desenvolvida durante a Semana Front-end da DIO (Digital Innovation One).
+-------
+Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Invertido é incerto, repleto de obstáculos e perigos. Porém, a recompensa é grande: salvar Hawkings e o mundo todo das garras de Vecna. Você está preparado(a)? 
 
-A página é uma jornada interativa que mergulha o usuário na atmosfera da série, com elementos que se transformam para representar o "Mundo Normal" e o "Mundo Invertido". O projeto foi construído com foco em praticar e demonstrar habilidades em HTML5, CSS3 e JavaScript, integrando conceitos modernos de desenvolvimento front-end.
+## ▶️ Semana Front-end
+- [Live Dia 01](https://www.youtube.com/watch?v=FZgIQUDn8zo)
+- [Live Dia 02](https://www.youtube.com/watch?v=WHbhgxJLbN4)
+## 💻 Tecnologias
+- HTML
+- CSS
+- JavaScript
 
-🎬 Demonstração
-(Sugestão: Grave um GIF ou vídeo curto mostrando a funcionalidade de "Inverter Mundos" e adicione aqui!)
+## 💬 Assuntos abordados
+- HTML
+    - Estruturação da página 
+    - Semântica
+    - Acessibilidade
+    - Web Scraping
+    - SEO
+- CSS
+    - Posicionamentos
+    - Pseudo-elementos
+    - Pseudo-classes
+    - Flexbox
+    - Animações 
+- JavaScript
+    - Introdução ao JavaScript
+    - Manipulação do DOM
+    - Introdução ao Firebase
+    - Integração com o Firebase
 
-✨ Funcionalidades Principais
-🌗 Troca de Tema (Mundo Normal / Invertido): Um botão permite ao usuário alternar entre um tema claro (Mundo Normal) e um tema escuro (Mundo Invertido), alterando completamente a estética da página.
-🎶 Música Temática Dinâmica: A música de fundo muda conforme o tema selecionado, aumentando a imersão.
-🔄 Efeitos Visuais com CSS: Elementos visuais são rotacionados e transformados ao entrar no "Mundo Invertido", simulando a estética da série.
-📝 Formulário de Inscrição Interativo: Um formulário para se inscrever no "Clube de D&amp;D" que, ao ser preenchido, envia os dados para uma (simulada) base de dados.
-🎨 CSS Moderno: Utilização de variáveis CSS (:root) para uma tematização eficiente, Flexbox para layout e a propriedade mask para criar silhuetas complexas.
-🤖 Acessibilidade (aria-labels): Inclusão de atributos aria para melhorar a acessibilidade para leitores de tela.
-🛠️ Tecnologias Utilizadas
-O projeto foi construído com as seguintes tecnologias:
+## 🎨 Variáveis do Tema CSS
+```css
+/*** VARIABLES & THEMES ***/
 
-HTML5: Para a estrutura semântica do conteúdo.
-CSS3: Para estilização, animações e layout. As principais features utilizadas foram:
-Variáveis CSS: Para facilitar a troca de temas.
-Flexbox: Para criar layouts responsivos.
-CSS Masking: Para aplicar as silhuetas dos personagens.
-Transformações e Transições: Para os efeitos de "inversão".
-JavaScript (ES6+): Para a interatividade da página, incluindo:
-Manipulação do DOM.
-Event Listeners (clicks de botão).
-Funções assíncronas (async/await) para o envio do formulário.
-Módulos (import/export) para organização do código.
+:root {
+  --primary-color: #cf0f0f;
+  --primary-color-contrast: #ffffff;
+  --field-background-color: #000;
+}
 
-🙏 Agradecimentos
-Agradecimento à DIO pela realização da "Semana Front-end" e pela oportunidade de aprendizado.
-Créditos de David Santos
+.light-theme {
+  --page-background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #ffffff 65%,
+    rgba(255, 255, 255, 0.75) 100%
+  );
+  --header-background-color: #e3e3e3;
+  --highlight-color: #000000;
+  --featured-font-family: "Archivo", sans-serif;
+  --character-top-image-src: url("../images/characters/kids-on-the-bike.svg");
+  --character-top-image-color: #ffffff;
+  --character-bottom-image-src: url("../images/characters/inverted-world-monster.svg");
+  --character-bottom-image-color: #e5e5e5;
+  --background-lamp-image: url("../images/backgrounds/lamps.png");
+  --footer-background-color: #b5bbbf;
+}
+
+.dark-theme {
+  --page-background: linear-gradient(
+    180deg,
+    #050000 0%,
+    #130404 65%,
+    rgba(19, 1, 1, 0.75) 100%
+  );
+  --header-background-color: #220f0f;
+  --highlight-color: #ffffff;
+--featured-font-family: "Rubik Glitch", sans-serif;
+  --character-bottom-image-src: url("../images/characters/kids-on-the-bike.svg");
+  --character-bottom-image-color: rgba(255, 255, 255, 0.1);
+  --character-top-image-src: url("../images/characters/inverted-world-monster.svg");
+  --character-top-image-color: #000;
+  --background-lamp-image: url("../images/backgrounds/lamps-inverted.png");
+  --footer-background-color: #000;
+}
+```
+## 🔗 Links auxiliares
+
+- [W3C - World Wide Web Consortium](http://w3c.org)
+- [WAI - Web Acessibility Initiative](https://www.w3.org/WAI/)
+- [WCAG 2](https://www.w3.org/WAI/WCAG21/quickref/) 
+- [Figma](https://www.figma.com/file/I3Q42CcVUziRN3iMfTrbfb/Stranger-Things?node-id=0%3A1) 
+- [Demo](https://micheleambrosio.github.io/semana-frontend-mundo-invertido/) 
